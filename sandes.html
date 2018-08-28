@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="adicionar.js"></script>
+  <script src="pagamento.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/geral.css">
+  <link rel="stylesheet" type="text/css" href="css/tipoComida.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <title> Sandes</title>
+</head>
+<body>
+
+  <div id="Ecra">
+    <div>
+      <a href="inicio.html"> <h1 class="b">MInt</h1> </a>
+      <a href="refeicoes.html"><img src="imagens/back.png" /></a>
+    </div>
+
+    <div id="Principal">
+      <div>
+        <a href="refeicoes.html"> <div> <img src="imagens/food.png" /> </div> </a>
+        <a href="tipoReservas.html"> <div class="b"> <img src="imagens/calendar.png" /> </div> </a>
+        <a href="descontos.html"><div class="b"> <img src="imagens/percentage.png" /> </div></a>
+      </div>
+
+      <div id="escolha">
+        <h1> Sandes </h1>
+        <div>
+            <div class="nome"> Sandes de Atum </div>
+            <div class="preco"> 3€ </div>
+            <img src="imagens/sandes5.jpg" />
+        </div>
+        <div>
+            <div class="nome"> Sandes de Frango </div>
+            <div class="preco"> 3€ </div>
+            <img src="imagens/sandes6.jpg" />
+        </div>
+        <div>
+            <div class="nome"> Sandes de Morcela Alface </div>
+            <div class="preco"> 3€ </div>
+            <img src="imagens/sandes1.jpg" />
+        </div>
+        <div>
+            <div class="nome">Sandes de Ovo </div>
+            <div class="preco"> 3€ </div>
+            <img src="imagens/sandes8.jpg" />
+        </div>
+        <div>
+            <div class="nome">Sandes de Presunto </div>
+            <div class="preco"> 3€ </div>
+            <img src="imagens/sandes2.jpg" />
+        </div>
+        <div>
+            <div class="nome">Sandes de Rosbife </div>
+            <div class="preco"> 3€ </div>
+            <img src="imagens/sandes7.jpg" />
+        </div>
+        <div>
+            <div class="nome"> Sandes de Salmão </div>
+            <div class="preco"> 3€ </div>
+            <img src="imagens/sandes4.jpg" />
+        </div>
+        <div>
+            <div class="nome"> Sandes Mista </div>
+            <div class="preco"> 3€ </div>
+            <img src="imagens/sandes3.jpg" />
+        </div>
+      </div>
+
+      <div>
+        <a href="entretenimento.html"> <div class="b"> <img src="imagens/jornal.png" /> <img src="imagens/comando.png" /> <img src="imagens/camera.png" /> </div> </a>
+        <a href="ambiente.html"><div class="b"> <img src="imagens/musica.png" /> <img src="imagens/televisao.png" /> <img src="imagens/luz.png" /> </div></a>
+        <div> <img src="imagens/alerta.png" /> <img src="imagens/empregado.png" /> </div>
+      </div>
+
+    </div>
+
+    <div id="pedido">
+
+      <div>
+        <h2>Pedido:</h2>
+      </div>
+
+      <div>
+        <h2> Total: <br> 00.0€</h2>
+        <button id="pagamento" type="button"> Finalizar </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!--  Pop-up mais-->
+
+  <div id="mais">
+    <div id="maisContent">
+      <div>
+        <div class="nome"> </div>
+        <div class="preco"> </div>
+      </div>
+      <div>
+        <div> Acompanhamento </div>
+        <form class="SandesdeMorcelaAlface">
+          <input type ="checkbox" value="batatas"> Batatas <br>
+          <input type ="checkbox" value="ketchup"> Ketchup <br>
+          <input type ="checkbox" value="maionesse"> Maionesse
+        </form>
+        <form class="SandesdePresunto">
+          <input type ="checkbox" value="batatas"> Batatas <br>
+          <input type ="checkbox" value="ketchup"> Ketchup <br>
+          <input type ="checkbox" value="maionesse"> Maionesse
+        </form>
+        <form class="SandesMista">
+          <input type ="checkbox" value="batatas"> Batatas <br>
+          <input type ="checkbox" value="manteiga"> Manteiga <br>
+          <input type ="checkbox" value="alface"> Alface
+        </form>
+        <form class="SandesdeSalmão">
+          <input type ="checkbox" value="batatas"> Batatas<br>
+          <input type ="checkbox" value="alface"> Alface <br>
+          <input type ="checkbox" value="maionesse "> Maionesse
+        </form>
+        <form class="SandesdeAtum">
+          <input type ="checkbox" value="batatas"> Batatas <br>
+          <input type ="checkbox" value="ketchup"> Ketchup <br>
+          <input type ="checkbox" value="maionesse"> Maionesse
+        </form>
+        <form class="SandesdeFrango">
+          <input type ="checkbox" value="batatas"> Batatas <br>
+          <input type ="checkbox" value="ketchup"> Ketchup <br>
+          <input type ="checkbox" value="maionesse"> Maionesse
+        </form>
+        <form class="SandesdeRosbife">
+          <input type ="checkbox" value="batatas"> Batatas <br>
+          <input type ="checkbox" value="ketchup"> Ketchup <br>
+          <input type ="checkbox" value="maionesse"> Maionesse
+        </form>
+        <form class="SandesdeOvo">
+          <input type ="checkbox" value="batatas"> Batatas <br>
+          <input type ="checkbox" value="ketchup"> Ketchup <br>
+          <input type ="checkbox" value="maionesse"> Maionesse
+        </form>
+        <div id="infPratoHeader">
+          Informações Nutricionais
+        </div>
+        <div id="infPrato">
+          <div class="SandesdeMorcelaAlface">
+            Pão <br> Morcela <br> Queijo <br> Alface <br> Tomate
+          </div>
+          <div class="SandesdePresunto">
+            Pão <br> Presunto <br> Farinha <br> Sal
+          </div>
+          <div class="SandesMista">
+            Pão <br> Fiambre <br> Queijo <br> Farinha <br>
+          </div>
+          <div class="SandesdeSalmão">
+            Pão <br> Farinha <br> Salmão <br> Alface
+          </div>
+          <div class="SandesdeAtum">
+            Pão <br> Farinha <br> Atum <br> Alface
+          </div>
+          <div class="SandesdeFrango">
+            Pão <br> Tomate <br> Frango <br> Alface
+          </div>
+          <div class="SandesdeRosbife">
+            Pão <br> Tomate <br> Rosbife <br> Alface <br> Pepino
+          </div>
+          <div class="SandesdeOvo">
+            Pão <br> Tomate <br> Ovo <br> Bacon <br> Alface
+          </div>
+        </div>
+        <img id="add" src="imagens/carrinho.png" />
+        <img id="cancel" src="imagens/close.png"/>
+      </div>
+    </div>
+  </div>
+
+
+  <!--  Calcelar-->
+  <div id="cancelar">
+  <div id="cancelarcontent">
+    <p> Tem a certeza que quer mudar de pagina? Se o fizer o seu pedido será cancelado </p>
+    <button id="S"> SIM </button>
+    <button id="N"> NÃO </button>
+  </div>
+  </div>
+
+
+  <!--  Pagamento-->
+
+    <div id="pagamentoEcra">
+      <div id="pagamentoContent">
+        <div>
+          <div>
+            Pedido:
+            <div id="pratos"> </div>
+            <div> </div>
+          </div>
+          <div>
+            Local
+            <form>
+              <input type ="radio" name = "local" value="restaurante"> No restaurante <br>
+              <input type ="radio" name = "local" value="encomenda"> Encomendar
+            </form>
+            <div id="marc">
+              <form>
+                Morada:
+                <input type ="text" name = "morada" required >  <br>
+                Hora:
+                <input type ="time" name = "hora">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            Prevemos que a sua comida demore
+
+            <h2> 28 minutos </h2>
+
+            <button id="finalizar" type="button"> Finalizar </button>
+            <button id="cancelarPagamento" type="button"> Cancelar </button>
+          </div>
+          <div>
+            Forma de pagamento
+            <form>
+              <input type ="radio" name = "pagamento" value="imediato"> Imediato <br>
+              <input type ="radio" name = "pagamento" value="tarde"> Mais tarde
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <img id="teclado" src="imagens/teclado.png" />
+
+
+  <!--  Cancelar-->
+  <div id="cancelar">
+    <div id="cancelarcontent">
+      <p> Tem a certeza que quer mudar de pagina? Se o fizer o seu pedido será cancelado </p>
+      <button id="S"> SIM </button>
+      <button id="N"> NÃO </button>
+    </div>
+
+    <!--Empregado-->
+    <div id="empregado">
+      <div id="empregadocontent">
+        <p> O empregado estará na mesa dentro de um breve momento. </p>
+        <button id="K"> Ok </button>
+      </div>
+    </div>
+  </div>
+  </body>
+  </html>

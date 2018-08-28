@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="adicionar.js"></script>
+  <script src="pagamento.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/geral.css">
+  <link rel="stylesheet" type="text/css" href="css/tipoComida.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <title> Carnes</title>
+</head>
+<body>
+
+  <div id="Ecra">
+    <div>
+      <a href="inicio.html"> <h1 class="b">MInt</h1> </a>
+      <a href="tiposCarnes.html"><img src="imagens/back.png" /></a>
+    </div>
+
+    <div id="Principal">
+      <div>
+        <a href="refeicoes.html"> <div> <img src="imagens/food.png" /> </div> </a>
+        <a href="tipoReservas.html"> <div class="b"> <img src="imagens/calendar.png" /> </div> </a>
+        <a href="descontos.html"><div class="b"> <img src="imagens/percentage.png" /> </div></a>
+      </div>
+
+      <div id="escolha">
+        <h1> Carne de Porco </h1>
+        <div>
+          <div class="nome"> Costeletas de Porco </div>
+          <div class="preco"> 7€ </div>
+          <img src="imagens/bifePorco1.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Empadão de Carne </div>
+          <div class="preco"> 5€ </div>
+          <img src="imagens/bifePorco6.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Espetadas de Lombo de Porco </div>
+          <div class="preco"> 5€ </div>
+          <img src="imagens/bifePorco4.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Lombo de Porco </div>
+          <div class="preco"> 6€ </div>
+          <img src="imagens/bifePorco2.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Lombo Frito </div>
+          <div class="preco"> 6€ </div>
+          <img src="imagens/bifePorco3.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Rojões de Porco c Ameijoas </div>
+          <div class="preco"> 6€ </div>
+          <img src="imagens/bifePorco5.png" />
+        </div>
+      </div>
+
+      <div>
+        <a href="entretenimento.html"> <div class="b"> <img src="imagens/jornal.png" /> <img src="imagens/comando.png" /> <img src="imagens/camera.png" /> </div> </a>
+        <a href="ambiente.html"><div class="b"> <img src="imagens/musica.png" /> <img src="imagens/televisao.png" /> <img src="imagens/luz.png" /> </div></a>
+        <div> <img src="imagens/alerta.png" /> <img src="imagens/empregado.png" /> </div>
+      </div>
+
+    </div>
+
+    <div id="pedido">
+
+      <div>
+        <h2>Pedido:</h2>
+      </div>
+
+      <div>
+        <h2> Total: <br> 00.0€</h2>
+        <button id="pagamento" type="button"> Finalizar </button>
+      </div>
+
+    </div>
+  </div>
+
+<!--  Pop-up mais-->
+  <div id="mais">
+    <div id="maisContent">
+      <div>
+        <div class="nome"> </div>
+        <div class="preco"> </div>
+      </div>
+      <div>
+        <div> Acompanhamento </div>
+        <form class="CosteletasdePorco">
+          <input type ="checkbox" value="arroz"> Arroz <br>
+          <input type ="checkbox" value="batata"> Batata frita <br>
+          <input type ="checkbox" value="salada"> Salada
+        </form>
+        <form class="LombodePorco">
+          <input type ="checkbox" value="arroz"> Arroz <br>
+          <input type ="checkbox" value="batata"> Batata frita <br>
+          <input type ="checkbox" value="salada"> Salada
+        </form>
+        <form class="LomboFrito">
+          <input type ="checkbox" value="arroz"> Arroz <br>
+          <input type ="checkbox" value="batata"> Batata frita <br>
+          <input type ="checkbox" value="salada"> Salada
+        </form>
+        <form class="EspetadasdeLombodePorco">
+          <input type ="checkbox" value="arroz"> Arroz <br>
+          <input type ="checkbox" value="batata"> Batata frita <br>
+          <input type ="checkbox" value="salada"> Salada
+        </form>
+        <form class="RojõesdePorcocAmeijoas">
+          <input type ="checkbox" value="arroz"> Arroz <br>
+          <input type ="checkbox" value="batata"> Batata frita <br>
+          <input type ="checkbox" value="salada"> Salada
+        </form>
+        <form class="EmpadãodeCarne">
+          <input type ="checkbox" value="arroz"> Extra Queijo <br>
+          <input type ="checkbox" value="batata"> Molho <br>
+          <input type ="checkbox" value="salada"> Salada
+        </form>
+        <div id="infPratoHeader">
+          Informações Nutricionais
+        </div>
+        <div id="infPrato">
+          <div class="CosteletasdePorco">
+            Porco <br> Tomate <br> Molho picante <br> Cebola <br> Alho <br> Pimenta <br> Sal
+          </div>
+          <div class="LombodePorco">
+            Porco <br> Vinho Branco <br> Pimentão <br> Azeite <br> Alho <br> Salsa
+          </div>
+          <div class="LomboFrito">
+            Porco <br> Molho inglês <br> Cebola <br> Manteiga <br> Sal
+          </div>
+          <div class="EspetadasdeLombodePorco">
+            Porco <br> Azeite <br> Alho <br> Malagueta <br> Pimenta <br> Salsa <br> Cerveja
+          </div>
+          <div class="RojõesdePorcocAmeijoas">
+            Porco <br> Azeite <br> Alho <br> Ameijoas <br> Pimenta <br> Salsa <br> Cogumelos
+          </div>
+          <div class="EmpadãodeCarne">
+            Porco <br> Leite <br> Alho <br> Molho <br> Pimenta <br> Salsa
+          </div>
+        </div>
+
+        <img id="add" src="imagens/carrinho.png" />
+        <img id="cancel" src="imagens/close.png"/>
+      </div>
+    </div>
+  </div>
+
+  <!--  Pagamento-->
+
+    <div id="pagamentoEcra">
+      <div id="pagamentoContent">
+        <div>
+          <div>
+            Pedido:
+            <div id="pratos"> </div>
+            <div> </div>
+          </div>
+          <div>
+            Local
+            <form>
+              <input type ="radio" name = "local" value="restaurante"> No restaurante <br>
+              <input type ="radio" name = "local" value="encomenda"> Encomendar
+            </form>
+            <div id="marc">
+              <form>
+                Morada:
+                <input type ="text" name = "morada" required >  <br>
+                Hora:
+                <input type ="time" name = "hora">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            Prevemos que a sua comida demore
+
+            <h2> 28 minutos </h2>
+
+            <button id="finalizar" type="button"> Finalizar </button>
+            <button id="cancelarPagamento" type="button"> Cancelar </button>
+          </div>
+          <div>
+            Forma de pagamento
+            <form>
+              <input type ="radio" name = "pagamento" value="imediato"> Imediato <br>
+              <input type ="radio" name = "pagamento" value="tarde"> Mais tarde
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <img id="teclado" src="imagens/teclado.png" />
+  <!--  Cancelar-->
+  <div id="cancelar">
+    <div id="cancelarcontent">
+      <p> Tem a certeza que quer mudar de pagina? Se o fizer o seu pedido será cancelado </p>
+      <button id="S"> SIM </button>
+      <button id="N"> NÃO </button>
+    </div>
+  </div>
+
+  <!--Empregado-->
+  <div id="empregado">
+    <div id="empregadocontent">
+      <p> O empregado estará na mesa dentro de um breve momento. </p>
+      <button id="K"> Ok </button>
+    </div>
+  </div>
+
+</body>
+</html>

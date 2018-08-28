@@ -1,0 +1,188 @@
+#escolha {
+  float: left;
+  color: white;
+  margin: auto;
+  height: 115%;
+  width: 63%;
+}
+
+
+#escolha > h2 {
+  margin:0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+#cima{
+  width: 100%;
+  height: 46.5%;
+  margin: 0 auto;
+}
+#baixo{
+  width: 100%;
+  height: 46.5%;
+}
+h3 {
+  margin:0 auto;
+  padding-top: 2%;
+}
+
+#cima > div {
+  width: 100%;
+  height: 62%;
+  background-color: #3C9090;
+  border: 3px solid #75AAAA;
+}
+#baixo > div {
+  width: 100%;
+  height: 62%;
+  background-color: #3C9090;
+  border: 3px solid #75AAAA;
+}
+
+.cores{
+  background-color: #368787;
+  border: 3px solid #75AAAA;
+  border-radius: 50%;
+  width: 15%;
+  height: 80%;
+  margin: 0 auto;
+  margin-left: 3.5%;
+  margin-top: 1.5%;
+  float: left;
+}
+.intensidade{
+  background-color: #368787;
+  border: 3px solid #75AAAA;
+  border-radius: 50%;
+  width: 15%;
+  height: 80%;
+  margin: 0 auto;
+  margin-left: 3.5%;
+  margin-top: 1.5%;
+  float: left;
+}
+
+.cores > div > p{
+  text-align: center;
+  font-size: 13px;
+  margin-top: 41%;
+  color: black;
+}
+.intensidade > p{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 41%;
+  color: white;
+}
+
+div#white{
+  margin: 0 auto;
+  background-color: white;
+  width: 60%;
+  height: 60%;
+  display: block;
+  border: 2px solid #efeded;
+  border-radius: 50%;
+  margin-top: 20%;
+}
+div#red{
+  margin: 0 auto;
+  background-color: red;
+  width: 60%;
+  height: 60%;
+  display: block;
+  border: 2px solid #efeded;
+  border-radius: 50%;
+  margin-top: 20%;
+}
+div#green{
+  margin: 0 auto;
+  background-color: green;
+  width: 60%;
+  height: 60%;
+  display: block;
+  border: 2px solid #efeded;
+  border-radius: 50%;
+  margin-top: 20%;
+}
+div#blue{
+  margin: 0 auto;
+  background-color: blue;
+  width: 60%;
+  height: 60%;
+  display: block;
+  border: 2px solid #efeded;
+  border-radius: 50%;
+  margin-top: 20%;
+}
+div#orange{
+  margin: 0 auto;
+  background-color: orange;
+  width: 60%;
+  height: 60%;
+  display: block;
+  border: 2px solid #efeded;
+  border-radius: 50%;
+  margin-top: 20%;
+}
+
+#concluir{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  margin-left: 0.7%;
+  margin-top: 0.6%;
+  z-index: 1;
+  width: 80.1em;
+  height: 45.4em;
+  background-color: rgba(0,0,0,0.4);
+}
+
+#concluircontent {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 20% auto;
+  background-color: #66CCCC;
+  width: 50%;
+  height: 35%;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  border: 3px solid black;
+  text-align: center;
+}
+
+#concluircontent p {
+  margin-left: 4%;
+  text-align: left;
+}
+
+#concluircontent button {
+  margin-top: 5%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  width: 30%;
+  height: 30%;
+  border: 1px solid black;
+  margin-left: 1%;
+  cursor: pointer;
+}
+
+.ini{
+  text-align: center;
+  width: 75%;
+  height: 5%;
+  padding: 2% 0;
+  float: left;
+  margin-top: 5%;
+  margin-left: 11%;
+  background-color: #3C9090;
+  border: 3px solid #5C6F6F;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inicio</title>
+		<meta charset="utf-8">
+    <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="pagamento.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/geral.css">
+    <link rel="stylesheet" type="text/css" href="css/inicio.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  </head>
+  <body>
+    <div id="Ecra">
+      <div>
+        <a href="inicio.html"> <h1>MInt</h1> </a>
+        <a href="ajuda.html"><img src="imagens/question.png" /></a>
+      </div>
+
+      <div id="PrincipalInicio">
+        <div>
+          <div id="pedidoHeader">
+            <h2>Pedido</h2>
+            <button id="pagamentoFinal"> Pagar </button>
+          </div>
+          <div>
+          </div>
+        </div>
+
+        <div id="center">
+          <a class="ini" href="refeicoes.html"> <div> <img src="imagens/food.png" /> </div> Refeições</a>
+          <a class="ini" href="tipoReservas.html"> <div> <img src="imagens/calendar.png" /> </div> Reservas</a>
+          <a class="ini" href="descontos.html"> <div> <img src="imagens/percentage.png" /> </div> Descontos</a>
+          <a class="ini" href="entretenimento.html"> <div ><img src="imagens/comando.png" /></div> Entretenimento</a>
+          <a class="ini" href="ambiente.html"> <div><img src="imagens/televisao.png" /></div> Ambiente</a>
+          <a class="ini" href="definicoes.html"> <div><img src="imagens/settings.png" /></div>Definições</a>
+        </div>
+
+        <div>
+          <div>
+            <h2>Cantinho do zé</h2>
+            <p> Contactos :</p>
+            <p> 963215468 </p>
+            <p> 215489635 </p>
+          </div>
+            <p> Terça-Feira, 7 de Novembro 2017 </p>
+            <p> 13:21 </p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--MaisFinal-->
+
+    <div id="maisFinalEcra">
+      <div id="maisFinalContent">
+        <div>
+          <div>
+            Pedido:
+            <div id="pratos"> </div>
+            <div> </div>
+          </div>
+          <div>
+            Local
+            <form>
+              <input type ="radio" name = "local" value="restaurante" checked> No restaurante <br>
+              <input type ="radio" name = "local" value="encomenda"> Encomendar
+            </form>
+            <div id="marc">
+              <form>
+                Morada:
+                <input type ="text" name = "morada" >  <br>
+                Hora:
+                <input type ="time" name = "hora">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <button id="guardar" type="button"> Guardar </button>
+            <button id="cancelarGuardar" type="button"> Anular </button>
+          </div>
+          <div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <img id="teclado" src="imagens/teclado.png" />
+
+  <!--Pagamento-->
+
+  <div id="pagamentoFinalEcra">
+    <div id="pagamentoFinalContent">
+      <div>
+        <div>
+          Pedido:
+          <div id="pratos"> </div>
+          <div>
+            <h2> Preço: </h2>
+          </div>
+        </div>
+        <div>
+          Forma de pagamento
+          <form>
+            <input type ="radio" name = "tipoPagamento" value="dinheiro"> Em dinheiro <br>
+            <input type ="radio" name = "tipoPagamento" value="multibanco"> Multibanco
+          </form>
+        </div>
+      </div>
+      <div>
+        <div>
+          <button id="pagar" type="button" disabled> Pagar </button>
+          <button id="cancelarPagar" type="button"> Cancelar </button>
+        </div>
+        <div>
+          Número de contribuinte:
+            <div>
+              <input name="state">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>

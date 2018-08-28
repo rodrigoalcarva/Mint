@@ -1,0 +1,85 @@
+#escolha {
+  float: left;
+  color: white;
+  margin: auto;
+  height: 115%;
+  width: 63%;
+
+}
+
+#escolha > h2 {
+  margin:0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+#cimaEsq{
+  width: 50%;
+  height: 46.5%;
+  float: left;
+  margin-top: 2%;
+
+}
+#cimaDir{
+  width: 50%;
+  height: 46.5%;
+  float: left;
+  margin-top: 2%;
+}
+#baixoEsq{
+  width: 50%;
+  height: 46.5%;
+  float: left;
+
+}
+#baixoDir{
+  width: 50%;
+  height: 46.5%;
+  float: left;
+
+}
+h3 {
+  margin:0 auto;
+  padding-top: 2%;
+  text-align: center;
+}
+
+#cimaEsq > div{
+  padding-top:5%;
+  width: 98%;
+  height: 70%;
+  background-color: #3C9090;
+  border: 3px solid #75AAAA;
+
+}
+#cimaDir > div{
+  padding-top:5%;
+  width: 98%;
+  height: 70%;
+  background-color: #3C9090;
+  border: 3px solid #75AAAA;
+
+}
+#baixoEsq > div{
+  padding-top:5%;
+  width: 98%;
+  height: 70%;
+  background-color: #3C9090;
+  border: 3px solid #75AAAA;
+
+}
+#baixoDir > div{
+  padding-top:5%;
+  width: 98%;
+  height: 70%;
+  background-color: #3C9090;
+  border: 3px solid #75AAAA;
+
+}
+
+.fil{
+  float: left;
+  width: 28%;
+  height: 98%;
+  margin-left: 4%;
+}

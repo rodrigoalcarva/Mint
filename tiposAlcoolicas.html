@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="adicionar.js"></script>
+  <script src="pagamento.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/geral.css">
+  <link rel="stylesheet" type="text/css" href="css/tipos.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <title> Bebidas</title>
+</head>
+<body>
+
+  <div id="Ecra">
+    <div>
+      <a href="inicio.html"> <h1 class="b">MInt</h1> </a>
+      <a href="refeicoes.html"><img src="imagens/back.png" /></a>
+    </div>
+
+    <div id="Principal">
+      <div>
+        <a href="refeicoes.html"> <div> <img src="imagens/food.png" /> </div> </a>
+        <a href="tipoReservas.html"> <div class="b"> <img src="imagens/calendar.png" /> </div> </a>
+        <a href="descontos.html"><div class="b"> <img src="imagens/percentage.png" /> </div></a>
+      </div>
+
+      <div id="escolha">
+        <h1> Bebidas Alcoólicas </h1>
+          <div onclick="window.location.href = 'cervSangrias.html';">
+            <h1>Cervejas, Vinhos e Sangrias</h1>
+          </div>
+          <div onclick="window.location.href = 'bebBrancas.html';">
+            <h1>Bebidas Brancas</h1>
+          </div>
+      </div>
+
+      <div>
+        <a href="entretenimento.html"> <div class="b"> <img src="imagens/jornal.png" /> <img src="imagens/comando.png" /> <img src="imagens/camera.png" /> </div> </a>
+        <a href="ambiente.html"><div class="b"> <img src="imagens/musica.png" /> <img src="imagens/televisao.png" /> <img src="imagens/luz.png" /> </div></a>
+        <div> <img src="imagens/alerta.png" /> <img src="imagens/empregado.png" /> </div>
+      </div>
+
+    </div>
+
+    <div id="pedido">
+
+      <div>
+        <h2>Pedido:</h2>
+      </div>
+
+      <div>
+        <h2> Total: <br> 00.0€</h2>
+        <button id="pagamento" type="button"> Finalizar </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!--  Pagamento-->
+
+    <div id="pagamentoEcra">
+      <div id="pagamentoContent">
+        <div>
+          <div>
+            Pedido:
+            <div id="pratos"> </div>
+            <div> </div>
+          </div>
+          <div>
+            Local
+            <form>
+              <input type ="radio" name = "local" value="restaurante"> No restaurante <br>
+              <input type ="radio" name = "local" value="encomenda"> Encomenda
+            </form>
+            <div id="marc">
+              <form>
+                Morada:
+                <input type ="text" name = "morada" required >  <br>
+                Hora:
+                <input type ="time" name = "hora">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            Prevemos que a sua comida demore
+
+            <h2> 28 minutos </h2>
+
+            <button id="finalizar" type="button"> Finalizar </button>
+            <button id="cancelarPagamento" type="button"> Cancelar </button>
+          </div>
+          <div>
+            Forma de pagamento
+            <form>
+              <input type ="radio" name = "pagamento" value="imediato"> Imediato <br>
+              <input type ="radio" name = "pagamento" value="tarde"> Mais tarde
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <img id="teclado" src="imagens/teclado.png" />
+
+  <!--  Cancelar-->
+  <div id="cancelar">
+    <div id="cancelarcontent">
+      <p> Tem a certeza que quer mudar de pagina? Se o fizer o seu pedido será cancelado </p>
+      <button id="S"> SIM </button>
+      <button id="N"> NÃO </button>
+    </div>
+  </div>
+
+  <!--Empregado-->
+  <div id="empregado">
+    <div id="empregadocontent">
+      <p> O empregado estará na mesa dentro de um breve momento. </p>
+      <button id="K"> Ok </button>
+    </div>
+  </div>
+
+</body>
+</html>

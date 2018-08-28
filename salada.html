@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="adicionar.js"></script>
+  <script src="pagamento.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/geral.css">
+  <link rel="stylesheet" type="text/css" href="css/tipoComida.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <title> Saladas</title>
+</head>
+<body>
+
+  <div id="Ecra">
+    <div>
+      <a href="inicio.html"> <h1 class="b">MInt</h1> </a>
+      <a href="refeicoes.html"><img src="imagens/back.png" /></a>
+    </div>
+
+    <div id="Principal">
+
+      <div>
+        <a href="refeicoes.html"> <div> <img src="imagens/food.png" /> </div> </a>
+        <a href="tipoReservas.html"> <div class="b"> <img src="imagens/calendar.png" /> </div> </a>
+        <a href="descontos.html"><div class="b"> <img src="imagens/percentage.png" /> </div></a>
+      </div>
+
+      <div id="escolha">
+        <h1> Saladas </h1>
+        <div>
+          <div class="nome"> Salada Ceasar </div>
+          <div class="preco"> 5€ </div>
+          <img src="imagens/salada3.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Salada de Cenoura </div>
+          <div class="preco"> 5€ </div>
+          <img src="imagens/salada6.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Salada de Frango </div>
+          <div class="preco"> 5€ </div>
+          <img src="imagens/salada4.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Salada de Melão e Camarão </div>
+          <div class="preco"> 5€ </div>
+          <img src="imagens/salada1.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Salada de Ovas </div>
+          <div class="preco"> 5€ </div>
+          <img src="imagens/salada5.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Salada de Quinoa</div>
+          <div class="preco"> 5€ </div>
+          <img src="imagens/salada7.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Salada Repolho Roxo</div>
+          <div class="preco"> 5€ </div>
+          <img src="imagens/salada2.jpg" />
+        </div>
+      </div>
+
+      <div>
+        <a href="entretenimento.html"> <div class="b"> <img src="imagens/jornal.png" /> <img src="imagens/comando.png" /> <img src="imagens/camera.png" /> </div> </a>
+        <a href="ambiente.html"><div class="b"> <img src="imagens/musica.png" /> <img src="imagens/televisao.png" /> <img src="imagens/luz.png" /> </div></a>
+        <div> <img src="imagens/alerta.png" /> <img src="imagens/empregado.png" /> </div>
+      </div>
+
+    </div>
+
+    <div id="pedido">
+
+      <div>
+        <h2>Pedido:</h2>
+      </div>
+
+      <div>
+        <h2> Total: <br> 00.0€</h2>
+        <button id="pagamento" type="button"> Finalizar </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!--  Pop-up mais-->
+  <div id="mais">
+    <div id="maisContent">
+      <div>
+        <div class="nome"> </div>
+        <div class="preco"> </div>
+      </div>
+      <div>
+        <div> Acompanhamento </div>
+        <form class="SaladadeMelãoeCamarão">
+          <input type ="checkbox" value="cuboTost"> Cubo tostados <br>
+          <input type ="checkbox" value="milho"> Milho <br>
+          <input type ="checkbox" value="tomate"> Tomate
+        </form>
+        <form class="SaladaRepolhoRoxo">
+          <input type ="checkbox" value="cuboTost"> Cubo tostados <br>
+          <input type ="checkbox" value="milho"> Milho <br>
+          <input type ="checkbox" value="tomate"> Tomate
+        </form>
+        <form class="SaladaCeasar">
+          <input type ="checkbox" value="cuboTost"> Cubo tostados <br>
+          <input type ="checkbox" value="milho"> Milho <br>
+          <input type ="checkbox" value="tomate"> Tomate
+        </form>
+        <form class="SaladadeFrango">
+          <input type ="checkbox" value="cuboTost"> Cubo tostados <br>
+          <input type ="checkbox" value="milho"> Milho <br>
+          <input type ="checkbox" value="tomate"> Tomate
+        </form>
+        <form class="SaladadeOvas">
+          <input type ="checkbox" value="cuboTost"> Cubo tostados <br>
+          <input type ="checkbox" value="milho"> Milho <br>
+          <input type ="checkbox" value="tomate"> Tomate
+        </form>
+        <form class="SaladadeCenoura">
+          <input type ="checkbox" value="cuboTost"> Cubo tostados <br>
+          <input type ="checkbox" value="milho"> Milho <br>
+          <input type ="checkbox" value="tomate"> Tomate
+        </form>
+        <form class="SaladadeQuinoa">
+          <input type ="checkbox" value="cuboTost"> Cubo tostados <br>
+          <input type ="checkbox" value="milho"> Feijão <br>
+          <input type ="checkbox" value="tomate"> Tomate
+        </form>
+        <div id="infPratoHeader">
+          Informações Nutricionais
+        </div>
+        <div id="infPrato">
+          <div class="SaladadeMelãoeCamarão">
+            Camarão <br> Melão <br> Leite <br> Hortelã <br> Azeite <br> Alface
+          </div>
+          <div class="SaladaRepolhoRoxo">
+            Repolho <br> Molho <br> Vinagre  <br> Sal <br> Pimenta <br> Alface
+          </div>
+          <div class="SaladaCeasar">
+            Frango <br> Alface <br> Parmesão <br> Molhos <br> Azeite <br> Leite
+          </div>
+          <div class="SaladadeFrango">
+            Frango <br> Alface <br> Parmesão <br> Molhos <br> Azeite <br> Leite
+          </div>
+          <div class="SaladadeOvas">
+            Ovas <br> Cenoura <br> Louro <br> Pimentão <br> Rabanete <br> Grão
+          </div>
+          <div class="SaladadeCenoura">
+            Cenoura <br> Alho <br> Louro <br> Pimentão <br> Rabanete <br> Grão
+          </div>
+          <div class="SaladadeQuinoa">
+            Quinoa <br> Alho <br> Cavala <br> Pimentão <br> Rabanete <br> Grão
+          </div>
+        </div>
+
+        <img id="add" src="imagens/carrinho.png" />
+        <img id="cancel" src="imagens/close.png"/>
+      </div>
+    </div>
+  </div>
+
+  <!--  Pagamento-->
+
+    <div id="pagamentoEcra">
+      <div id="pagamentoContent">
+        <div>
+          <div>
+            Pedido:
+            <div id="pratos"> </div>
+            <div> </div>
+          </div>
+          <div>
+            Local
+            <form>
+              <input type ="radio" name = "local" value="restaurante"> No restaurante <br>
+              <input type ="radio" name = "local" value="encomenda"> Encomendar
+            </form>
+            <div id="marc">
+              <form>
+                Morada:
+                <input type ="text" name = "morada" required >  <br>
+                Hora:
+                <input type ="time" name = "hora">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            Prevemos que a sua comida demore
+
+            <h2> 28 minutos </h2>
+
+            <button id="finalizar" type="button"> Finalizar </button>
+            <button id="cancelarPagamento" type="button"> Cancelar </button>
+          </div>
+          <div>
+            Forma de pagamento
+            <form>
+              <input type ="radio" name = "pagamento" value="imediato"> Imediato <br>
+              <input type ="radio" name = "pagamento" value="tarde"> Mais tarde
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <img id="teclado" src="imagens/teclado.png" />
+
+  <!--  Cancelar-->
+  <div id="cancelar">
+    <div id="cancelarcontent">
+      <p> Tem a certeza que quer mudar de pagina? Se o fizer o seu pedido será cancelado </p>
+      <button id="S"> SIM </button>
+      <button id="N"> NÃO </button>
+    </div>
+  </div>
+
+  <!--Empregado-->
+  <div id="empregado">
+    <div id="empregadocontent">
+      <p> O empregado estará na mesa dentro de um breve momento. </p>
+      <button id="K"> Ok </button>
+    </div>
+  </div>
+</body>
+</html>

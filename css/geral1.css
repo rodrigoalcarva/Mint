@@ -1,0 +1,558 @@
+body {
+  width: 100%;
+}
+
+#Ecra {
+  font-family: 'Ubuntu', sans-serif;
+  width: 1280px;
+  height: 720px;
+  background-color: #384259;
+  border: 4px solid black;
+  border-radius: 6px;
+}
+
+#Ecra > div:first-child{
+  padding-bottom: 1%;
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  border-bottom: 4px solid white;
+}
+
+#Ecra > div:first-child a {
+  text-decoration:none;
+  width: 75%;
+  float: left;
+}
+
+#Ecra > div:first-child h1 {
+  margin: 0;
+  font-size: 170px;
+  color: white;
+  margin-right: 12.5%;
+  float: right;
+}
+
+#Ecra > div > a:last-child{
+  width: 90px;
+  height: 90px;
+  margin-top: 5%;
+  margin-left: 11%;
+  float: left;
+}
+
+#Ecra > div > a > img{
+  width: 90px;
+  height: 90px;
+}
+
+/* Principal*/
+
+#Principal {
+  height: 60%;
+  padding: 1% 3% 2% 2%;
+}
+
+#Principal > div:not(#escolha) {
+  width: 15%;
+  height: 100%;
+  padding-left: 3.5%;
+}
+
+#Principal > div:first-child {
+  float: left;
+}
+
+#Principal > div:last-child {
+  position: relative;
+  left: 5%;
+  float: left;
+}
+
+#Principal > div:not(#escolha) div {
+  float: left;
+  width: 70%;
+  height: 30%;
+  margin-top: 13%;
+  border-radius: 50%;
+  background-color: #6C9E9F;
+}
+
+#Principal > div:first-child img {
+  position: relative;
+  top: 18%;
+  left: 21%;
+  width: 62%;
+  height: 60%;
+}
+
+#Principal > div:first-child  img:first-child {
+  position: relative;
+  top: 16%;
+  left: 16%;
+  width: 70%;
+  height: 68%;
+}
+
+#Principal > div:first-child img:last-child {
+  position: relative;
+  top: 16%;
+  left: 16%;
+  width: 70%;
+  height: 68%;
+}
+
+#Principal > div:last-child a img {
+  width: 35%;
+  height: 35%;
+  position: relative;
+  left: 10%;
+  top: 42%;
+}
+
+#Principal > div:last-child a img:first-child {
+  position: relative;
+  width: 40%;
+  height: 40%;
+  top: 4%;
+  left: 25%;
+}
+
+#Principal > div:last-child a img:last-child {
+  position: relative;
+  top: 8%;
+  left: 5%;
+}
+
+#Principal > div:last-child a:first-child img {
+  width: 45%;
+  height: 45%;
+  position: relative;
+  left: 0;
+  top: 45%;
+}
+
+#Principal > div:last-child a:first-child img:first-child {
+  position: relative;
+  top: 7%;
+  left: 25%;
+}
+
+#Principal > div:last-child a:first-child img:last-child {
+  position: relative;
+  top: 0%;
+  left: 5%;
+}
+
+#Principal > div:last-child img:first-child {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  top: 45%;
+  left: 35%;
+}
+
+#Principal > div:last-child img:last-child {
+  width: 50%;
+  position: relative;
+  top: -43%;
+  left: 20%;
+}
+
+/* Fundo do ecra*/
+
+#pedido{
+  height: 17%;
+  color: white;
+  border-top: 4px solid white;
+}
+
+#pedido > div:first-child{
+  float: left;
+  width: 79%;
+  height: 100%;
+  overflow: auto;
+}
+
+#pedido h2 {
+  float: left;
+  display: inline;
+  margin: 0 0 0 1.5%;
+  width: 15%;
+  padding-top: 0.9%;
+  font-size: 30px;
+}
+
+#pedido > div:last-child {
+  float: left;
+  height: 100%;
+  width: 21%;
+}
+
+#pedido > div:last-child h2 {
+  float: right;
+  display: none;
+  margin-left: 50%;
+  margin-right: 7%;
+  width: 25%;
+}
+
+#pagamento {
+  float: right;
+  display: none;
+  margin-top: 3%;
+  margin-right: 4%;
+  color: white;
+  font-size: 28px;
+  background-color: #3C9090;
+  border: 2px solid #5C6F6F;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+}
+
+/* Pratos no pedido */
+
+.prato {
+  float: left;
+  margin-left: 1%;
+  margin-top: 0.5%;
+  width: 20%;
+  height: 91%;
+  border: 1px solid #61BBBB;
+  background-color: #329999;
+}
+
+.prato h5 {
+  font-size: 22px;
+  margin-bottom: 2%;
+}
+
+.prato > img:first-child{
+  float: left;
+  margin-right: 1%;
+  width: 80%;
+  height: 100%;
+  border-right: 2px solid #61BBBB;
+}
+
+.prato > img:nth-child(2){
+  float: left;
+  width: 17%;
+  height: 30%;
+  margin-left: 1px;
+  cursor: pointer;
+}
+
+.prato > img:nth-child(3){
+  float: left;
+  width: 17%;
+  height: 30%;
+  margin-left: 10px;
+}
+
+.prato > img:last-child{
+  float: left;
+  width: 18%;
+  height: 30%;
+}
+
+/*Mais sobre prato*/
+
+.nome {
+  margin-top: 3px;
+  padding-left: 5px;
+  padding-bottom: 2px;
+  font-size: 20px;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+
+.preco {
+  float:right;
+  margin-right: 30px;
+  margin-top: 5px;
+  font-size: 40px;
+}
+
+.carro{
+  float:right;
+  margin-top: 5px;
+  width: 35.5%;
+  height: 40%;
+  border-top: 1px solid white;
+  cursor: pointer;
+}
+
+.carro > img{
+  margin-left: 25px;
+  width: 50%;
+  height: 100%;
+}
+
+#mais{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  margin-left: 0.7%;
+  margin-top: 0.6%;
+  z-index: 1;
+  width: 80.1em;
+  height: 45.4em;
+  background-color: rgba(0,0,0,0.4);
+}
+
+#maisContent {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 14% auto;
+  background-color: #329999;
+  width: 60%;
+  height: 55%;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #61BBBB;
+}
+
+#maisContent > div:first-child {
+  float: left;
+  width: 60%;
+  height: 100%;
+  border-right: 2px solid #61BBBB;
+}
+
+#maisContent .nome {
+  padding-top: 0;
+  padding-bottom: 5px;
+  float: left;
+  display: inline;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 10px;
+  border-bottom: 1px solid #61BBBB;
+}
+
+#maisContent .preco {
+  float: left;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-right: 0;
+  padding-bottom: 5px;
+  padding-left: 12.5%;
+  padding-right: 2%;
+  border-bottom: 1px solid #61BBBB;
+}
+
+#maisContent > div:first-child img {
+  width: 99.5%;
+  height: 86.5%;
+  border: 2px solid #61BBBB;
+  border-right: none;
+}
+
+#maisContent > div:last-child {
+  float: right;
+  width: 39%;
+  height: 100%;
+}
+
+#maisContent > div:last-child > div:first-child{
+  margin-top: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+#maisContent form {
+  font-weight: normal;
+}
+
+#maisContent > div:last-child > div:nth-child(3) {
+  font-size: 25px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#maisContent > div:last-child > div:nth-child(4) {
+  display: inline-block;
+  font-weight: normal;
+  width: 40%;
+  margin-left: 5%;
+}
+
+#add{
+  float: right;
+  margin-top: 10.5%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 32%;
+  height: 25%;
+  border: 2px solid #61BBBB;
+  cursor: pointer;
+}
+
+#cancel {
+  position: absolute;
+  right: 18.5%;
+  bottom: 72.5%;
+  border-radius: 50%;
+  width: 3%;
+  height: 5%;
+  background-color: black;
+  cursor: pointer;
+}
+
+#maisContent input[type=checkbox] {
+  margin-left: 5%;
+  border: 0px;
+  width: 10%;
+  height: 25px;
+}
+
+/* Ecra de pagamento */
+
+#pagamentoEcra {
+  position: absolute;
+  top: 12px;
+  left: 43px;
+  display: none;
+  z-index: 1;
+  width: 1280px;
+  height: 720px;
+  background-color: rgba(0,0,0,0.4);
+}
+
+#pagamentoContent {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 9.8% auto;
+  background-color: #66CCCC;
+  width: 80%;
+  height: 73%;
+  font-size: 30px;
+  color: darkblue;
+  font-weight: bold;
+}
+
+#pagamentoContent > div{
+  height: 50%;
+}
+
+#pagamentoContent > div > div:first-child{
+  padding-left: 2%;
+  padding-top: 2%;
+  float: left;
+  width: 55%;
+  height: 91%;
+
+}
+
+#pagamentoContent > div > div:last-child{
+  padding-top: 2%;
+  float: left;
+  width: 40%;
+  height: 91%;
+}
+
+#pagamentoContent h2 {
+  margin-left: 15%;
+  color: white;
+}
+
+#pratos {
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+  font-weight: normal;
+  overflow: auto;
+  height: 60%;
+}
+
+#pagamentoContent > div:first-child > div:first-child > div:last-child {
+  margin-left: 5%;
+  color: white;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#pagamentoContent form{
+  margin-top: 8%;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+#pagamentoContent input:last-child{
+  margin-top: 10%;
+}
+
+#pagamentoContent input[type=radio] {
+    border: 0px;
+    width: 20%;
+    height: 35px;
+}
+
+#pagamentoContent button {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 30%;
+  height: 30%;
+  border: 1px solid black;
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+#finalizar {
+  background-color: #3CA3A3;
+}
+
+#cancelarPagamento {
+  background-color: #B72929;
+  margin-left: 5%;
+}
+
+/* Ecra do empregado */
+
+#empregado{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  margin-left: 0.7%;
+  margin-top: 0.6%;
+  z-index: 1;
+  width: 80.1em;
+  height: 45.4em;
+  background-color: rgba(0,0,0,0.4);
+}
+
+#empregadocontent {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 20% auto;
+  background-color: #66CCCC;
+  width: 50%;
+  height: 35%;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  border: 3px solid black;
+  text-align: center;
+}
+
+#empregadocontent p {
+  margin-left: 4%;
+  text-align: left;
+}
+
+#empregadocontent button {
+  margin-top: 5%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  width: 30%;
+  height: 30%;
+  border: 1px solid black;
+  margin-left: 1%;
+  cursor: pointer;
+}

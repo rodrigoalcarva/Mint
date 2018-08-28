@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="adicionar.js"></script>
+  <script src="pagamento.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/geral.css">
+  <link rel="stylesheet" type="text/css" href="css/refeicoes.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <title> Refeições</title>
+</head>
+<body>
+  <div id="Ecra">
+
+    <div>
+      <a href="inicio.html"> <h1 class="b">MInt</h1> </a>
+      <a href="inicio.html"><img class="b" src="imagens/back.png" /></a>
+    </div>
+
+    <div id="Principal">
+
+      <div>
+        <a href="refeicoes.html"> <div> <img src="imagens/food.png" /> </div> </a>
+        <a href="tipoReservas.html"> <div class="b"> <img src="imagens/calendar.png" /> </div> </a>
+        <a href="descontos.html"><div class="b"> <img src="imagens/percentage.png" /> </div></a>
+      </div>
+
+      <div id="escolha">
+        <div>
+          <div>
+             <h2> Comida </h2>
+             <a href="entradas.html"> <button type="button"> Entradas </button> </a>
+             <a href="tiposCarnes.html"> <button type="button"> Carne </button> </a>
+             <a href="peixe.html"> <button type="button"> Peixe </button> </a>
+             <a href="vegetariano.html"> <button type="button"> Vegetariano </button> </a>
+             <a href="salada.html"> <button type="button"> Saladas </button> </a>
+             <a href="sandes.html"> <button type="button"> Sandes </button></a>
+             <a href="sobremesas.html"> <button type="button"> Sobremesas </button> </a>
+          </div>
+          <div id="bebida">
+             <h2> Bebida </h2>
+             <a href="aguas.html"> <button type="button"> Águas </button> </a>
+             <a href="tiposAlcoolicas.html"> <button type="button"> Alcoólicas </button> </a>
+             <a href="batido.html"> <button type="button"> Batidos </button> </a>
+             <a href="sumosNaturais.html"> <button type="button"> Sumos Naturais </button> </a>
+             <a href="refrigerantes.html"> <button type="button"> Refrigerantes </button> </a>
+          </div>
+          <div>
+             <h2> Recomendados </h2>
+             <div>
+               <div>
+                 <div id ="recomendados">
+                   <div>
+                     <div> Azeitonas - 1€ </div>
+                     <img src="imagens/azeitonas.png"/>
+                   </div>
+                   <div>
+                     <div> Bitoque - 5€ </div>
+                     <img src="imagens/bitoque.jpg"/>
+                   </div>
+                   <div>
+                     <div> Limonada - 2€ </div>
+                     <img src="imagens/limonada.jpg"/>
+                   </div>
+                 </div>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <a href="entretenimento.html"> <div class="b"> <img src="imagens/jornal.png" /> <img src="imagens/comando.png" /> <img src="imagens/camera.png" /> </div> </a>
+        <a href="ambiente.html"><div class="b"> <img src="imagens/musica.png" /> <img src="imagens/televisao.png" /> <img src="imagens/luz.png" /> </div></a>
+        <div> <img src="imagens/alerta.png" /> <img src="imagens/empregado.png" /> </div>
+      </div>
+
+    </div>
+
+    <div id="pedido">
+
+      <div>
+        <h2>Pedido:</h2>
+      </div>
+
+      <div>
+        <h2> Total: <br> 00.0€</h2>
+        <button id="pagamento" type="button"> Finalizar </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!--  Pop-up mais-->
+  <div id="mais">
+    <div id="maisContent">
+      <div>
+        <div class="nome"> </div>
+        <div class="preco"> </div>
+      </div>
+      <div>
+        <div> Acompanhamento </div>
+        <form class="Bitoque">
+          <input type ="checkbox" value="arroz"> Arroz <br>
+          <input type ="checkbox" value="batata"> Batata Frita <br>
+          <input type ="checkbox" value="ovo"> Ovo
+        </form>
+        <form class="Limonada">
+          <input type ="checkbox" value="gelo"> Gelo <br>
+          <input type ="checkbox" value="acucar"> + Açúcar <br>
+          <input type ="checkbox" value="sombrinha"> Sombrinha
+        </form>
+        <form class="Azeitonas">
+          <input type ="checkbox" value="verdes"> Verdes<br>
+          <input type ="checkbox" value="pretas"> Pretas<br>
+          <input type ="checkbox" value="Queijo"> Queijo
+        </form>
+        <div id="Inf">
+          Informações Nutricionais
+        </div>
+        <div id="InfRec">
+          <div class="Bitoque">
+            Carne <br> Molho <br> Pimenta <br> Oregãos <br>
+          </div>
+          <div class="Limonada">
+            Água <br> Limão <br> Açúcar <br>
+          </div>
+          <div class="Azeitonas">
+            Azeitonas <br>
+          </div>
+        </div>
+        <img id="add" src="imagens/carrinho.png" />
+        <img id="cancel" src="imagens/close.png"/>
+      </div>
+    </div>
+  </div>
+
+
+  <!--  Pagamento-->
+
+    <div id="pagamentoEcra">
+      <div id="pagamentoContent">
+        <div>
+          <div>
+            Pedido:
+            <div id="pratos"> </div>
+            <div> </div>
+          </div>
+          <div>
+            Local
+            <form>
+              <input type ="radio" name = "local" value="restaurante"> No restaurante <br>
+              <input type ="radio" name = "local" value="encomenda"> Encomendar
+            </form>
+            <div id="marc">
+              <form>
+                Morada:
+                <input type ="text" name = "morada" >  <br>
+                Hora:
+                <input type ="time" name = "hora">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            Prevemos que a sua comida demore
+
+            <h2> 28 minutos </h2>
+
+            <button id="finalizar" type="button" disabled> Finalizar </button>
+            <button id="cancelarPagamento" type="button"> Cancelar </button>
+          </div>
+          <div>
+            Forma de pagamento
+            <form>
+              <input type ="radio" name = "pagamento" value="imediato"> Imediato <br>
+              <input type ="radio" name = "pagamento" value="tarde"> Mais tarde
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <img id="teclado" src="imagens/teclado.png" />
+
+  <!--  Cancelar-->
+  <div id="cancelar">
+    <div id="cancelarcontent">
+      <p> Tem a certeza que quer mudar de pagina? Se o fizer o seu pedido será cancelado </p>
+      <button id="S"> SIM </button>
+      <button id="N"> NÃO </button>
+    </div>
+  </div>
+
+  <!--Empregado-->
+  <div id="empregado">
+    <div id="empregadocontent">
+      <p> O empregado estará na mesa dentro de um breve momento. </p>
+      <button id="K"> Ok </button>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

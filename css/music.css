@@ -1,0 +1,137 @@
+#escolha {
+  float: left;
+  color: white;
+  margin: auto;
+  height: 100%;
+  width: 63%;
+
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+#escolha::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+#escolha::-webkit-scrollbar{
+  width: 12px;
+  background-color: #3C9090;
+}
+
+#escolha::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+
+#escolha > h2 {
+  margin:0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+table {
+  margin-top: 3%;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  font-size: 30px;
+  padding: 20px;
+}
+
+
+td {
+  text-align: left;
+  padding: 20px;
+}
+
+
+tr:nth-child(even) {background-color: #3C9090;}
+
+tr:nth-child(odd) {background-color: #5C6F6F;}
+
+audio{
+  margin-top: 5%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+
+#concluirMusica{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  margin-left: 0.7%;
+  margin-top: 0.6%;
+  z-index: 1;
+  width: 80.1em;
+  height: 45.4em;
+  background-color: rgba(0,0,0,0.4);
+}
+
+#concluirMusicacontent {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 20% auto;
+  background-color: #66CCCC;
+  width: 50%;
+  height: 35%;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  border: 3px solid black;
+  text-align: center;
+}
+
+#concluirMusicaontent p {
+  margin-left: 4%;
+  text-align: left;
+}
+
+#concluirMusicacontent button {
+  margin-top: 5%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  width: 30%;
+  height: 30%;
+  border: 1px solid black;
+  margin-left: 1%;
+  cursor: pointer;
+}
+
+
+table#votacao {
+
+  margin-top: 3%;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: 25%;
+}
+
+table#votacao > th {
+  text-align: left;
+  font-size: 30px;
+  padding: 20px;
+}
+
+
+table#votacao > td {
+  text-align: left;
+  padding: 20px;
+}
+
+table#votacao > tr:nth-child(even) {background-color: #3C9090;}
+
+table#votacao > tr:nth-child(odd) {background-color: #5C6F6F;}
+
+
+h4{
+  margin-top: 5%;
+  text-align: center;
+}

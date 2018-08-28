@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="adicionar.js"></script>
+  <script src="pagamento.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/geral.css">
+  <link rel="stylesheet" type="text/css" href="css/tipoComida.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <title> Carnes</title>
+</head>
+<body>
+
+  <div id="Ecra">
+    <div>
+      <a href="inicio.html"> <h1 class="b">MInt</h1> </a>
+      <a href="tiposCarnes.html"><img src="imagens/back.png" /></a>
+    </div>
+
+    <div id="Principal">
+      <div>
+        <a href="refeicoes.html"> <div> <img src="imagens/food.png" /> </div> </a>
+        <a href="tipoReservas.html"> <div class="b"> <img src="imagens/calendar.png" /> </div> </a>
+        <a href="descontos.html"><div class="b"> <img src="imagens/percentage.png" /> </div></a>
+      </div>
+
+      <div id="escolha">
+        <h1> Carne de Vaca </h1>
+        <div>
+          <div class="nome"> Bife de Cebolada c Cerveja </div>
+          <div class="preco"> 6€ </div>
+          <img src="imagens/bifeVaca3.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Bife da Vazia c Cogumelos </div>
+          <div class="preco"> 5€ </div>
+          <img src="imagens/bifeVaca1.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Bifes Enrolados c Legumes </div>
+          <div class="preco"> 5€ </div>
+          <img src="imagens/bifeVaca4.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Bife Gratinado c Queijo </div>
+          <div class="preco"> 4€ </div>
+          <img src="imagens/bifeVaca6.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Bife Grelhado c coentros </div>
+          <div class="preco"> 6€ </div>
+          <img src="imagens/bifeVaca2.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Picanha </div>
+          <div class="preco"> 7€ </div>
+          <img src="imagens/bifeVaca7.Jpeg" />
+        </div>
+        <div>
+          <div class="nome"> Strogonoff de Vaca </div>
+          <div class="preco"> 4€ </div>
+          <img src="imagens/strognoff_vaca.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Vitela à Portuguesa </div>
+          <div class="preco"> 4€ </div>
+          <img src="imagens/bifeVaca5.jpg" />
+        </div>
+
+
+      </div>
+
+      <div>
+        <a href="entretenimento.html"> <div class="b"> <img src="imagens/jornal.png" /> <img src="imagens/comando.png" /> <img src="imagens/camera.png" /> </div> </a>
+        <a href="ambiente.html"><div class="b"> <img src="imagens/musica.png" /> <img src="imagens/televisao.png" /> <img src="imagens/luz.png" /> </div></a>
+        <div> <img src="imagens/alerta.png" /> <img src="imagens/empregado.png" /> </div>
+      </div>
+
+    </div>
+
+    <div id="pedido">
+
+      <div>
+        <h2>Pedido:</h2>
+      </div>
+
+      <div>
+        <h2> Total: <br> 00.0€</h2>
+        <button id="pagamento" type="button"> Finalizar </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!--  Pop-up mais-->
+  <div id="mais">
+    <div id="maisContent">
+      <div>
+        <div class="nome"> </div>
+        <div class="preco"> </div>
+      </div>
+      <div>
+        <div> Acompanhamento </div>
+        <form class="BifedaVaziacCogumelos">
+          <input type ="checkbox" value="mal"> Mal passado <br>
+          <input type ="checkbox" value="medio"> Medio passado <br>
+          <input type ="checkbox" value="bem"> Bem passado
+        </form>
+        <form class="BifeGrelhadoccoentros">
+          <input type ="checkbox" value="mal"> Mal passado <br>
+          <input type ="checkbox" value="medio"> Medio passado <br>
+          <input type ="checkbox" value="bem"> Bem passado
+        </form>
+        <form class="BifedeCeboladacCerveja">
+          <input type ="checkbox" value="mal"> Mal passado <br>
+          <input type ="checkbox" value="medio"> Medio passado <br>
+          <input type ="checkbox" value="bem"> Bem passado
+        </form>
+        <form class="BifesEnroladoscLegumes">
+          <input type ="checkbox" value="mal"> Mal passado <br>
+          <input type ="checkbox" value="medio"> Medio passado <br>
+          <input type ="checkbox" value="bem"> Bem passado
+        </form>
+        <form class="VitelaàPortuguesa">
+          <input type ="checkbox" value="mal"> Mal passado <br>
+          <input type ="checkbox" value="medio"> Medio passado <br>
+          <input type ="checkbox" value="bem"> Bem passado
+        </form>
+        <form class="BifeGratinadocQueijo">
+          <input type ="checkbox" value="mal"> Mal passado <br>
+          <input type ="checkbox" value="medio"> Medio passado <br>
+          <input type ="checkbox" value="bem"> Bem passado
+        </form>
+        <form class="Picanha">
+          <input type ="checkbox" value="mal"> Mal passado <br>
+          <input type ="checkbox" value="medio"> Medio passado <br>
+          <input type ="checkbox" value="bem"> Bem passado
+        </form>
+        <form class="StrogonoffdeVaca">
+          <input type ="checkbox" value="mal"> Mal passado <br>
+          <input type ="checkbox" value="medio"> Medio passado <br>
+          <input type ="checkbox" value="bem"> Bem passado
+        </form>
+        <div id="infPratoHeader">
+          Informações Nutricionais
+        </div>
+        <div id="infPrato">
+          <div class="BifedaVaziacCogumelos">
+            Bife Vazia <br> Cogumelos <br> Molho picante <br> Cebola <br> Alho <br> Pimenta <br> Sal
+          </div>
+          <div class="BifeGrelhadoccoentros">
+            Bife Vazia <br> Coentros <br> Molho picante <br> Cebola <br> Alho <br> Pimenta <br> Sal
+          </div>
+          <div class="BifedeCeboladacCerveja">
+            Bife Alcatra <br> Cerveja <br> Molho picante <br> Cebola <br> Alho <br> Pimenta <br> Sal
+          </div>
+          <div class="BifesEnroladoscLegumes">
+            Bife Novilho <br> Legumes <br> Molho picante <br> Cebola <br> Alho <br> Pimenta <br> Sal
+          </div>
+          <div class="VitelaàPortuguesa">
+            Bife Novilho <br> Legumes <br> Molho picante <br> Cebola <br> Alho <br> Pimenta <br> Sal
+          </div>
+          <div class="BifeGratinadocQueijo">
+            Bife Novilho <br> Legumes <br> Molho picante <br> Cebola <br> Alho <br> Pimenta <br> Sal
+          </div>
+          <div class="Picanha">
+            Bife Novilho <br> Legumes <br> Molho picante <br> Cebola <br> Alho <br> Pimenta <br> Sal
+          </div>
+          <div class="StrogonoffdeVaca">
+            Bife Novilho <br> Legumes <br> Molho picante <br> Cebola <br> Alho <br> Pimenta <br> Sal
+          </div>
+        </div>
+
+        <img id="add" src="imagens/carrinho.png" />
+        <img id="cancel" src="imagens/close.png"/>
+      </div>
+    </div>
+  </div>
+
+  <!--  Pagamento-->
+
+    <div id="pagamentoEcra">
+      <div id="pagamentoContent">
+        <div>
+          <div>
+            Pedido:
+            <div id="pratos"> </div>
+            <div> </div>
+          </div>
+          <div>
+            Local
+            <form>
+              <input type ="radio" name = "local" value="restaurante" required > No restaurante <br>
+              <input type ="radio" name = "local" value="levar"> Para levar
+            </form>
+            <div id="marc">
+              <form>
+                Morada:
+                <input type ="text" name = "morada" required >  <br>
+                Hora:
+                <input type ="time" name = "hora">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            Prevemos que a sua comida demore
+
+            <h2> 28 minutos </h2>
+
+            <button id="finalizar" type="button"> Finalizar </button>
+            <button id="cancelarPagamento" type="button"> Cancelar </button>
+          </div>
+          <div>
+            Forma de pagamento
+            <form>
+              <input type ="radio" name = "pagamento" value="imediato"> Imediato <br>
+              <input type ="radio" name = "pagamento" value="tarde"> Mais tarde
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <img id="teclado" src="imagens/teclado.png" />
+
+  <!--  Cancelar-->
+  <div id="cancelar">
+    <div id="cancelarcontent">
+      <p> Tem a certeza que quer mudar de pagina? Se o fizer o seu pedido será cancelado </p>
+      <button id="S"> SIM </button>
+      <button id="N"> NÃO </button>
+    </div>
+  </div>
+
+  <!--Empregado-->
+  <div id="empregado">
+    <div id="empregadocontent">
+      <p> O empregado estará na mesa dentro de um breve momento. </p>
+      <button id="K"> Ok </button>
+    </div>
+  </div>
+</body>
+</html>

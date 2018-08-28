@@ -1,0 +1,141 @@
+#escolha {
+  float: left;
+  color: white;
+  margin: auto;
+  height: 115%;
+  width: 63%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#escolha > h2 {
+  margin:0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+#primeiro{
+  width: 100%;
+  height: 23%;
+  border-collapse: collapse
+}
+
+#segundo{
+  width: 100%;
+  height: 23%;
+  border-collapse: collapse
+}
+
+#terceiro{
+  width: 100%;
+  height: 23%;
+  border-collapse: collapse
+}
+
+#quarto{
+  width: 100%;
+  height: 23%;
+  border-collapse: collapse
+}
+
+.check{
+  width: 20%;
+  height: 100%;
+  float: left;
+  font-size: 30px;
+  text-align: center;
+  background-color: #6C9E9F;
+  border: 3px solid #75AAAA;
+
+}
+
+.menuImagem{
+  width: 78.4%;
+  height: 100%;
+  float: left;
+  background-color: #6C9E9F;
+  border: 3px solid #75AAAA;
+
+}
+
+input[type="checkbox"]{
+  width: 30px; /*Desired width*/
+  height: 30px; /*Desired height*/
+  margin-top: 25%;
+}
+
+.container{
+  width: 32.98%;
+  height: 100%;
+  float: left;
+  border: 1px solid #75AAAA;
+}
+
+.container > img{
+  width: 70%;
+  height: 70%;
+  float: left;
+  margin-left: 15%;
+}
+
+p{
+  font-size: 27px;
+  text-align: center;
+}
+
+.ini{
+  text-align: center;
+  width: 75%;
+  height: 5%;
+  padding: 2% 0;
+  float: left;
+  margin-left: 13%;
+  margin-top: 7%;
+  background-color: #6C9E9F;
+  border: 3px solid #75AAAA;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Ecra de mudar de pagina */
+
+#pop{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  margin-left: 0.7%;
+  margin-top: 0.6%;
+  z-index: 1;
+  width: 80.1em;
+  height: 45.4em;
+  background-color: rgba(0,0,0,0.6);
+}
+
+#popcontent {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 14% auto;
+  background-color: #d14747;
+  width: 40%;
+  height: 40%;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  border: 3px solid black;
+  text-align: center;
+}
+
+#popcontent button {
+  margin-top: 5%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 30%;
+  height: 30%;
+  border: 1px solid black;
+  margin-left: 1%;
+  cursor: pointer;
+}

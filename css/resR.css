@@ -1,0 +1,228 @@
+#escolha {
+  float: left;
+  color: white;
+  margin: auto;
+  height: 115%;
+  width: 63%;
+}
+
+#central{
+  margin: 0 auto;
+  margin-top: 2%;
+  width: 67%;
+  height: 64.4%;
+  background-color: #3C9090;
+  border: 3px solid #75AAAA;
+  color: white;
+}
+
+p{
+  text-align: center;
+}
+
+form{
+  font-size: 32px;
+  text-align: left;
+  border-bottom: 2px solid #75AAAA;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+}
+
+.ff{
+  padding-top: 5%;
+}
+
+.ini{
+  text-align: center;
+  width: 75%;
+  height: 5%;
+  padding: 2% 0;
+  float: left;
+  margin-left: 13%;
+  margin-top: 2.5%;
+  background-color: #6C9E9F;
+  border: 3px solid #75AAAA;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input{
+  width: 50%;
+  padding-top: 1.2%;
+  padding-bottom: 1.2%;
+  float: right;
+}
+
+#escolha > h2 {
+  margin:0 auto;
+  margin-top: 1%;
+  text-align: center;
+  font-size: 30px;
+}
+div#Eventos >h3 {
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5%;
+  float: left;
+}
+
+div#cab{
+  height: 20%;
+}
+div#cab > div:first-child{
+  margin-left: 3%;
+  float: left;
+}
+div#cab > div:last-child{
+  margin-left: 1%;
+  float: left;
+}
+
+div#cab > div > img{
+  margin-top: 70%;
+}
+
+
+.events{
+  width: 20%;
+  height: 40%;
+  float: left;
+  margin: 0 auto;
+  margin-left: 4%;
+  margin-top: 5%;
+  background-color: #3C9090;
+  border: 3px solid #75AAAA;
+  color: white;
+  text-align: center;
+
+}
+
+div#Eventos{
+  width: 80%;
+  height: 61%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20%;
+}
+
+
+#escolha > img{
+  margin: 0 auto;
+  margin-left: 3%;
+  margin-top: 12%;
+  width: 30%;
+  height: 50%;
+  float: left;
+}
+
+
+#escolha > div:first-child > div:last-child {
+  margin-left: 8%;
+  float: left;
+  height: 100%;
+  width: 32%;
+}
+
+#recomendados{
+  margin-top: 8%;
+  width: 100%;
+  height: 315px;
+  color: white;
+  font-size: 23px;
+  background-color: #3C9090;;
+  border: 2px solid #5C6F6F;
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+  overflow: auto;
+}
+
+#recomendados div {
+  padding: 5%;
+  border-bottom: 3px solid white;
+}
+
+#recomendados div:last-child {
+  border-bottom: 0px solid white;
+}
+
+#recomendados img{
+  margin-top: 2%;
+  width: 90%;
+}
+
+#menu{
+  float: right;
+  display: inline;
+  height: 100%;
+  width: 15%;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/*CSS3 extras*/
+
+/* Ecra de mudar de pagina */
+
+#pop{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  margin-left: 0.7%;
+  margin-top: 0.6%;
+  z-index: 1;
+  width: 80.1em;
+  height: 45.4em;
+  background-color: rgba(0,0,0,0.6);
+}
+
+#popcontent {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 14% auto;
+  background-color: #d14747;
+  width: 40%;
+  height: 40%;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  border: 3px solid black;
+  text-align: center;
+}
+
+#popcontent button {
+  margin-top: 5%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 30%;
+  height: 30%;
+  border: 1px solid black;
+  margin-left: 1%;
+  cursor: pointer;
+}

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="adicionar.js"></script>
+  <script src="pagamento.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/geral.css">
+  <link rel="stylesheet" type="text/css" href="css/tipoComida.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <title>Entradas</title>
+</head>
+<body>
+  <div id="Ecra">
+
+    <div>
+      <a href="inicio.html"> <h1 class="b">MInt</h1> </a>
+      <a href="refeicoes.html"><img src="imagens/back.png" /></a>
+    </div>
+
+    <div id="Principal">
+      <div>
+        <a href="refeicoes.html"> <div> <img src="imagens/food.png" /> </div> </a>
+        <a href="tipoReservas.html"> <div class="b"> <img src="imagens/calendar.png" /> </div> </a>
+        <div class="b"> <img src="imagens/percentage.png" /> </div>
+      </div>
+
+      <div id="escolha">
+        <h1> Entradas </h1>
+        <div>
+          <div class="nome"> Ameijoas </div>
+          <div class="preco"> 4€ </div>
+          <img src="imagens/ameijoas.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Atum Empanado </div>
+          <div class="preco"> 3€ </div>
+          <img src="imagens/atumE.png" />
+        </div>
+        <div>
+          <div class="nome"> Azeitonas </div>
+          <div class="preco"> 1€ </div>
+          <img src="imagens/azeitonas.png" />
+        </div>
+        <div>
+          <div class="nome"> Bola de Berlim Molho Salmão </div>
+          <div class="preco"> 1€ </div>
+          <img src="imagens/bolaBerlim.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Bruschetta de tomates frescos </div>
+          <div class="preco"> 2€ </div>
+          <img src="imagens/bruchete.png" />
+        </div>
+        <div>
+          <div class="nome"> Bruschetta Queijo Brie e Geleia</div>
+          <div class="preco"> 2€ </div>
+          <img src="imagens/bruchete1.png" />
+        </div>
+        <div>
+          <div class="nome"> Croquetes 2 uni </div>
+          <div class="preco"> 1€ </div>
+          <img src="imagens/croquetes.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Duo di Crostini </div>
+          <div class="preco"> 2€ </div>
+          <img src="imagens/duo.png" />
+        </div>
+        <div>
+          <div class="nome"> Pão 5 pcs </div>
+          <div class="preco"> 1€ </div>
+          <img src="imagens/pao.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Tábua Queijos e Chouriço </div>
+          <div class="preco"> 6€ </div>
+          <img src="imagens/tabua.jpg" />
+        </div>
+        <div>
+          <div class="nome"> Taquinho de Frango </div>
+          <div class="preco"> 4€ </div>
+          <img src="imagens/taquinho.png" />
+        </div>
+        <div>
+          <div class="nome"> Torrada Queijo e Compota </div>
+          <div class="preco"> 2€ </div>
+          <img src="imagens/torrada.png" />
+        </div>
+      </div>
+
+      <div>
+        <a href="entretenimento.html"> <div class="b"> <img src="imagens/jornal.png" /> <img src="imagens/comando.png" /> <img src="imagens/camera.png" /> </div> </a>
+        <a><div class="b"> <img src="imagens/musica.png" /> <img src="imagens/televisao.png" /> <img src="imagens/luz.png" /> </div></a>
+        <div> <img src="imagens/alerta.png" /> <img src="imagens/empregado.png" /> </div>
+      </div>
+
+    </div>
+
+    <div id="pedido">
+
+      <div>
+        <h2>Pedido:</h2>
+      </div>
+
+      <div>
+        <h2> Total: <br> 00.0€</h2>
+        <button id="pagamento" type="button"> Finalizar </button>
+      </div>
+
+    </div>
+  </div>
+
+<!--  Pop-up mais-->
+
+  <div id="mais">
+    <div id="maisContent">
+      <div>
+        <div class="nome"> </div>
+        <div class="preco"> </div>
+      </div>
+      <div>
+        <div> Acompanhamento </div>
+        <form class="AtumEmpanado">
+          <input type ="checkbox" value="mostarda"> Mostarda<br>
+          <input type ="checkbox" value="ketchup"> Ketchup <br>
+          <input type ="checkbox" value="maioinesse "> Maionesse
+        </form>
+        <form class="Pão5pcs">
+          <input type ="checkbox" value="manteiga"> Manteiga <br>
+          <input type ="checkbox" value="manteigaAlho"> Manteiga Alho <br>
+          <input type ="checkbox" value="pAtum"> Pasta Atum
+        </form>
+        <form class="Ameijoas">
+          <input type ="checkbox" value="manteiga"> Manteiga <br>
+          <input type ="checkbox" value="manteigaAlho"> Manteiga Alho <br>
+          <input type ="checkbox" value="pAtum"> Pasta Atum
+        </form>
+        <form class="Azeitonas">
+          <input type ="checkbox" value="verdes"> Verdes<br>
+          <input type ="checkbox" value="pretas"> Pretas<br>
+          <input type ="checkbox" value="Queijo"> Queijo <br>
+        </form>
+
+        <form class="Croquetes2uni">
+          <input type ="checkbox" value="mostarda"> Mostarda<br>
+          <input type ="checkbox" value="ketchup"> Ketchup <br>
+          <input type ="checkbox" value="maioinesse "> Maionesse
+        </form>
+        <form class="TábuaQueijoseChouriço">
+          <input type ="checkbox" value="qFresco"> Queijo Fresco<br>
+          <input type ="checkbox" value="Presunto"> Presunto <br>
+          <input type ="checkbox" value="Morcela"> Morcela
+        </form>
+        <form class="BoladeBerlimMolhoSalmão">
+          <input type ="checkbox" value="mostarda"> Mostarda<br>
+          <input type ="checkbox" value="ketchup"> Ketchup <br>
+          <input type ="checkbox" value="maioinesse "> Maionesse
+        </form>
+        <form class="Bruschettadetomatesfrescos">
+          <input type ="checkbox" value="mostarda"> Mostarda<br>
+          <input type ="checkbox" value="ketchup"> Ketchup <br>
+          <input type ="checkbox" value="maioinesse "> Maionesse
+        </form>
+        <form class="BruschettaQueijoBrieeGeleia">
+          <input type ="checkbox" value="mostarda"> Mostarda<br>
+          <input type ="checkbox" value="ketchup"> Ketchup <br>
+          <input type ="checkbox" value="maioinesse "> Maionesse
+        </form>
+        <form class="DuodiCrostini">
+          <input type ="checkbox" value="mostarda"> Mostarda<br>
+          <input type ="checkbox" value="ketchup"> Ketchup <br>
+          <input type ="checkbox" value="maioinesse "> Maionesse
+        </form>
+        <form class="TaquinhodeFrango">
+          <input type ="checkbox" value="mostarda"> Mostarda<br>
+          <input type ="checkbox" value="ketchup"> Ketchup <br>
+          <input type ="checkbox" value="maioinesse "> Maionesse
+        </form>
+        <form class="TorradaQueijoeCompota">
+          <input type ="checkbox" value="fiambre"> Fiambre<br>
+          <input type ="checkbox" value="geleia"> Geleia<br>
+          <input type ="checkbox" value="maioinesse "> Maionesse
+        </form>
+        <div id="infPratoHeader">
+          Informações Nutricionais
+        </div>
+        <div id="infPrato">
+          <div class="AtumEmpanado">
+            Atum <br> Salsa <br> Sal <br> Farinha
+          </div>
+          <div class="Ameijoas">
+            Ameijoas <br> Salsa <br> Sal
+          </div>
+          <div class="Pão5pcs">
+            Farinha <br> Carboidratos <br> Proteinas <br> Lípidos
+          </div>
+          <div class="Azeitonas">
+            Sódio <br> Cálcio <br> Potássio  <br> Gordura <br> Vitamina A
+          </div>
+          <div class="Croquetes2uni">
+            Carne<br> Ovos <br> Margarina <br> Alho <br> Louro
+          </div>
+          <div class="TábuaQueijoseChouriço">
+            Queijo <br> Chouriço <br> Presunto <br> Morcela
+          </div>
+          <div class="BoladeBerlimMolhoSalmão">
+            Farinha <br> Açucar <br> Salmão <br> Molhos
+          </div>
+          <div class="Bruschettadetomatesfrescos">
+            Pão <br> Salsa <br> Tomate
+          </div>
+          <div class="BruschettaQueijoBrieeGeleia">
+            Pão <br> Queijo <br> Geleia <br> Salsa
+          </div>
+          <div class="DuodiCrostini">
+            Pão <br> Queijo <br> Abobrinha <br> Alcachofra
+          </div>
+          <div class="TaquinhodeFrango">
+            Massa <br> Frango <br> Salsa <br> Tomate
+          </div>
+          <div class="TorradaQueijoeCompota">
+            Pão <br> Queijo <br> Compota
+          </div>
+        </div>
+
+        <img id="add" src="imagens/carrinho.png" />
+        <img id="cancel" src="imagens/close.png"/>
+      </div>
+    </div>
+  </div>
+
+  <!--  Pagamento-->
+
+    <div id="pagamentoEcra">
+      <div id="pagamentoContent">
+        <div>
+          <div>
+            Pedido:
+            <div id="pratos"> </div>
+            <div> </div>
+          </div>
+          <div>
+            Local
+            <form>
+              <input type ="radio" name = "local" value="restaurante"> No restaurante <br>
+              <input type ="radio" name = "local" value="encomenda"> Encomendar
+            </form>
+            <div id="marc">
+              <form>
+                Morada:
+                <input type ="text" name = "morada" required >  <br>
+                Hora:
+                <input type ="time" name = "hora">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            Prevemos que a sua comida demore
+
+            <h2> 28 minutos </h2>
+
+            <button id="finalizar" type="button"> Finalizar </button>
+            <button id="cancelarPagamento" type="button"> Cancelar </button>
+          </div>
+          <div>
+            Forma de pagamento
+            <form>
+              <input type ="radio" name = "pagamento" value="imediato"> Imediato <br>
+              <input type ="radio" name = "pagamento" value="tarde"> Mais tarde
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <img id="teclado" src="imagens/teclado.png" />
+
+  <!--  Cancelar-->
+  <div id="cancelar">
+    <div id="cancelarcontent">
+      <p> Tem a certeza que quer mudar de pagina? Se o fizer o seu pedido será cancelado </p>
+      <button id="S"> SIM </button>
+      <button id="N"> NÃO </button>
+    </div>
+  </div>
+
+  <!--Empregado-->
+  <div id="empregado">
+    <div id="empregadocontent">
+      <p> O empregado estará na mesa dentro de um breve momento. </p>
+      <button id="K"> Ok </button>
+    </div>
+  </div>
+
+</body>
+</html>

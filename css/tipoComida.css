@@ -1,0 +1,48 @@
+#escolha {
+  float: left;
+  margin: auto;
+  width: 63%;
+  height: 101%;
+  color: white;
+  overflow: auto;
+
+}
+
+#escolha > h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#escolha > div {
+  float: left;
+  margin: 1% 5%;
+  width: 40%;
+  height: 40%;
+  background-color: #329999;
+  cursor: pointer;
+}
+
+#escolha > div > img {
+  float: left;
+  width: 70%;
+  height: 80%;
+  border-right:1px solid white;
+  background-color: #329999;
+}
+
+#escolha::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#escolha::-webkit-scrollbar{
+	width: 12px;
+	background-color: #384259;
+}
+
+#escolha::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
